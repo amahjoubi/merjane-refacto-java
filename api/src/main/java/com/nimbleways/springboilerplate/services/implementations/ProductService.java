@@ -12,7 +12,7 @@ import com.nimbleways.springboilerplate.repositories.ProductRepository;
 public class ProductService {
 
     @Autowired
-    ProductRepository pr;
+    private ProductRepository pr;
 
     @Autowired
     NotificationService ns;
